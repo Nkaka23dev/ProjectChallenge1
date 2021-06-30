@@ -58,7 +58,7 @@ function getAllPost(e){
            posts=data
            .map(post=>{
                return`
-            <h1 class="post-title">${post.id} ${post.title}</h1>
+            <h1 class="post-title">${post.title}</h1>
             <div class="post-body">
             <p>${post.body}</p>
              </div>
