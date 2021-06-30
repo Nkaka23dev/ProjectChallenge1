@@ -233,6 +233,13 @@ footer {
         justify-content: center;
         opacity: 0.9;
         } 
+    footer {
+        text-align: center;
+        padding: 5px;
+        background-color:whitesmoke;
+        color: #000;
+        font-size:1.2rem;
+        }
     
 }
 

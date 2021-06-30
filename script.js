@@ -59,6 +59,7 @@ function getAllPost(e){
            .map(post=>{
                return`
             <h1 class="post-title">${post.title}</h1>
+            <hr style="background-color: royalblue; font-weight: 900;">
             <div class="post-body">
             <p>${post.body}</p>
              </div>
